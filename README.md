@@ -51,7 +51,9 @@ SharpResume is built using the NextJS framework. Key pages include:
 1. Clone or download the project  
 2. Open in your favorite code editor  
 3. Start the development server (`npm install` → `npm run dev`)  
-4. Open [http://localhost:3000](http://localhost:3000) in your browser to see SharpResume in action  
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see SharpResume in action
+5. Want to try..?
+6. https://sharp-resume-tau.vercel.app/ 
 
 > SharpResume requires no sign-up and keeps your data fully private.
 
