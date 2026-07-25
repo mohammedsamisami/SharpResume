@@ -19,7 +19,7 @@ const FEATURES = [
     text: "SharpResume is created with the belief that everyone should have free and easy access to a modern professional resume design.",
   },
   {
-    src: featureUSSrc,
+    src: null, 
     title: "IND. Best Practices",
     text: "SharpResume has built-in best practices for the IND. job market and works well with top ATS platforms such as Greenhouse and Lever.",
   },
@@ -29,7 +29,7 @@ const FEATURES = [
     text: "SharpResume stores data locally in your browser so only you have access to your data and have complete control.",
   },
   {
-    src: featureProjectSrc,
+    src: null, 
     title: "Navodaya Institute of Technology",
     text: (
       <>
@@ -49,11 +49,13 @@ export const Features = () => {
             <div className="px-2" key={title}>
               <div className="relative w-96 self-center pl-16">
                 <dt className="text-2xl font-bold">
-                  <Image
-                    src={src}
-                    className="absolute left-0 top-1 h-12 w-12"
-                    alt="Feature icon"
-                  />
+                  {src && (
+                    <Image
+                      src={src}
+                      className="absolute left-0 top-1 h-12 w-12"
+                      alt="Feature icon"
+                    />
+                  )}
                   {title}
                 </dt>
                 <dd className="mt-2">{text}</dd>

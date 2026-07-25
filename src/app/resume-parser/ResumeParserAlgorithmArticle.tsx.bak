@@ -346,10 +346,11 @@ export const ResumeParserAlgorithmArticle = ({
         the main heuristic doesn't apply to check if the text item is bolded.
       </Paragraph>
       <Paragraph>
-        And that is everything about the SharpResume parser algorithm : made by mohammed sami
+        And that is everything about the SharpResume parser algorithm :)
       </Paragraph>
       <Paragraph>
-        June 2025
+        Written by <Link href="https://github.com/xitanggg">Xitang</Link> on
+        June 2023
       </Paragraph>
     </article>
   );
